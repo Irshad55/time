@@ -1,0 +1,278 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.section1 {
+    width: 100%;
+    height: 60%;
+}
+
+.section2 {
+    width: 100%;
+    height: 40%;
+    
+}
+
+.lines {
+    height: 24%;
+    padding: 35px;
+}
+
+.lines .logo .wrap {
+    display: inline-block;
+    width: 100%;
+}
+
+.wrap div {
+    height: 5px;
+    background-color: black;
+    width: 35px;
+    border-radius: 20px;
+    margin-left: 90%;
+}    
+
+.one {
+    margin-bottom: 3px;
+}
+
+.two {
+    margin-bottom: 3px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 36%;
+    display: inline-block;
+}
+
+.hero-adjust {
+    width: 150%;
+}
+
+.section1 .divide2 {
+    background-color: hsl(207, 33%, 95%);
+    
+}
+.monograph {
+    margin-top: 80px;
+    margin-left: 25px;
+    
+}
+
+.mono-new {
+    display: inline-block;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    width: 50px;
+    padding: 4px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.mono-dash {
+    display: inline;
+    letter-spacing: 3px;
+    margin-left: 15px;
+    color: hsl(230, 11%, 40%);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.power {
+    padding: 25px;
+    font-size: 28px;
+    font-family: 'Barlow Condensed', sans-serif;
+   
+}
+
+.power-adj {
+   font-weight: 800;
+}
+
+.project {
+    margin-left: 25px;
+    color:hsl(230, 11%, 40%);
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+} 
+
+.button {
+    padding: 25px;
+    border: none;
+    margin-bottom: 20px;
+    
+}
+
+.button input {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: hsl(0, 100%, 68%);
+    border: none;
+    color: white;
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 10%;
+}
+
+.last {
+    display: inline;
+    margin-left: 20px;
+    color: rgb(160, 140, 160);
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .lap-section1, .lap-logo, .lap-logo-adj, .lap-monograph, .lap-mono-new, .lap-mono-dash, .lap-power, .lap-power-adj, .lap-project, .lap-button, .lap-button-adj, .lap-last, .lap-section2, .lap-divide1, .flex-container, .lap-hero-image, .lap-hero-adjust {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lap-section1, .lap-logo, .lap-logo-adj, .lap-monograph, .lap-mono-new, .lap-mono-dash, .lap-power, .lap-power-adj, .lap-project, .lap-button, .lap-button-adj, .lap-last, .lap-section2, .lap-divide1, .flex-container, .lap-hero-image, .lap-hero-adjust {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .section1, .lines, .logo, .logo-adj, .wrap, .one,
+    .two, .three, .hero-image, .hero-adjust, .section2, .monograph, .mono-new, .mono-dash, .power, .power-adj, .project, .button, .button-adj, .last {
+        display: none;
+    }
+}
+
+.lap-section1 {
+    height: 50vh;
+    width: 50%;
+    float: left;
+    padding: 60px;
+}
+
+.lap-section2 {
+    height: 50vh;
+    width: 50%;
+    float: right;
+}
+
+.lap-logo {
+    margin-left: 80px;
+}
+
+.lap-monograph {
+    margin-left: 80px;
+    margin-top: 120px;
+
+}
+
+.lap-mono-new {
+    display: inline-block;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    width: 50px;
+    padding: 4px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.lap-mono-dash {
+    display: inline;
+    letter-spacing: 3px;
+    margin-left: 15px;
+    color: hsl(230, 11%, 40%);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.lap-power {
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 38px;
+    font-family: 'Barlow Condensed', sans-serif;
+   
+}
+
+.lap-power-adj {
+   font-weight: 800;
+}
+
+.lap-project {
+    margin-left: 80px;
+    color:hsl(230, 11%, 40%);
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 30px;
+} 
+
+.lap-button {
+    margin-left: 80px;
+    border: none;
+    margin-bottom: 20px;
+    
+}
+
+.lap-button input {
+    padding: 13px;
+    border-radius: 5px;
+    background-color: hsl(0, 100%, 68%);
+    border: none;
+    color: white;
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 10%;
+}
+
+.lap-last {
+    display: inline;
+    margin-left: 20px;
+    color: rgb(160, 140, 160);
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 10%;
+    font-size: 14px;
+}
+
+.lap-section2, .lap-divide1 {
+    height: 50vh;
+    background-color: hsl(207, 33%, 95%);
+    border-bottom-left-radius: 40px;
+}
+
+.flex-container {
+    display: flex;
+    width: 30%;
+}
+
+.flex-container h6 {
+    margin-top: 60px;
+    margin-left: 80px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.lap-hero-image {
+    margin-top: 80px;
+}
